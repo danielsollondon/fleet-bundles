@@ -6,4 +6,4 @@ helm:
   values:
     persistence:
       enabled: true
-      storageClass: longhorn-unreplicated
+      storageClass: local-path
